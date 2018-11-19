@@ -1,0 +1,21 @@
+.content{
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+}
+header{
+    text-align: center ;
+}
+.img-one{
+ float: left;
+}
+.text-img{
+    font-weight: bold;
+}
+.img-two{
+    text-align: center;
+}
+.text-ctd{
+    float: right;
+    width: 80%;
+}

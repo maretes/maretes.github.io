@@ -1,0 +1,228 @@
+.content{
+    margin: 0 auto;
+    width: 1170px;
+    max-width: 100%;
+}
+.center-b{
+    margin: 0 auto;
+    text-align: center;
+}
+/* header block */
+header{
+    background: #357efd url("../img/Grupa_13.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+.st-header{
+    padding: 40px 0 0 0;
+}
+.bt-menu{
+
+    float: right;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+.elipsa-img{
+    width: 145px;
+    height: 145px;
+    border-radius: 9999px;
+    box-shadow: 0px 0px 20px 3px rgb(255, 255, 255);
+
+}
+
+.st-content-h{
+    margin: 5% 0 0 0;
+    text-align: center;
+
+}
+.h-h1-text{
+    padding: 3% 0 2% 0;
+    margin: 0 auto;
+    width: 809px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+}
+.h-p-text{
+    padding:  0 0 20px 0;
+    margin: 0 auto;
+    width: 765px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+.bt-h-m{
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 9999px;
+
+    padding: 15px 50px;
+    background-color: #ffffff;
+}
+.bt-h-m span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #3695ff;
+}
+.next-block{
+    left: 49.5%;
+    position:absolute ;
+    bottom: 5%;
+}
+/*-----------------------------------------------*/
+
+.big-text-two-block{
+    color: #3677fd;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 35.12px;
+    padding: 100px 0 70px;
+}
+.smol-text-two-block{
+    width: 1067px;
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    padding-bottom: 115px;
+}
+.st-thr-block{
+    background: #f1f8ff ;
+}
+.big-text-thr-block{
+
+    color: #3677fd;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 35.12px;
+    padding: 95px 0 155px;
+}
+.list-expert li{
+    display: inline-block;
+    width: 33%;
+}
+.img-thr-block{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(183, 192, 201);
+    border-radius: 50%;
+}
+.i-b-o1{
+    padding: 80px 40px 30px 40px;
+    vertical-align: bottom;
+}
+.i-b-o2{
+    padding: 80px 30px 30px 30px;
+    vertical-align: bottom;
+}
+.i-b-o3{
+    padding: 80px 33px 30px 33px;
+    vertical-align: bottom;
+}
+
+.i-b-o4{
+    padding: 80px 30px 30px 30px;
+    vertical-align: bottom;
+}
+.i-b-o5{
+    padding: 80px 30px 30px 30px;
+    vertical-align: bottom;
+}
+.i-b-o6{
+    padding: 82px 25px 32px 30px;
+    vertical-align: bottom;
+}
+.teh-it{
+    padding-top : 100px;
+    color: #3677fd;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.inf-th-it {
+    padding: 33px 0 140px;
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.work-tab{
+
+    padding-bottom: 20%;
+}
+
+
+.work-tab li{
+    margin: 15% 2% -10% 0;
+    display: inline-block;
+}
+.bg-ten{
+    padding: 3% 1% 1% 1%;
+    text-align: center;
+    width: 359px;
+    height: 269px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+.lw-big-text{
+    padding-top: 10%;
+    color: #3677fd;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 35.12px;
+}
+.st-f-block{
+    background: #f1f8ff;
+}
+.fa-block{
+
+}
+.h2-st-f{
+    padding-top: 100px;
+    color: #3677fd;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 35.12px;
+}
+.fa-block li{
+    display: inline-block;
+    padding: 90px 58px;
+    filter: contrast(1%) brightness(150%);
+}
+.footer{
+    padding: 100px 0 100px;
+    background: #357efd url("../img/Grupa_13_kopia.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.f-list li{
+    display: inline-block;
+}
+.f-list h3 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 65px;
+}
+.f-list span{
+    font-weight: 700;
+}
+.f-list a{
+    margin-left: 30px;
+    vertical-align: text-bottom;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <form action="" method="get" >
+        <h1>Урок "формы":теги и их атрыбуты.</h1>
+        <h2>Разскажите немного о себе...</h2>
+        <p>Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдуть и вымышленные.</p>
+       <p> <fieldset>
+            <legend>Коротко о себе</legend>
+            <p>Имя: <input name="name"></p>
+            <p>Фамилия: <input name="surname"></p>
+            <p>Пол: <input type="radio" name="age"> мужской <input type="radio" name="age"> женский</p>
+            <p>Возрост: <input type="namber" size="3px"> лет</p>
+        </fieldset></p>
+       <p> <fieldset>
+            <legend><b>Подробней о себе</b></legend>
+            <p>
+                 <input type="radio" name="sex"> Молодой человек</br>
+                 <input type="radio" name="sex"> Девушка</br>
+                 <input type="text"> Дата рождения</br>
+                 <input type="text"> Семейное положение</br>
+                 <input type="text"> Социальный стасус</br>
+                 <input type="text"> Местожительство</br>
+
+            </p>
+            <p>
+                <b>Что вы обично делаете на выходных:</b>
+            </p>
+            <p>
+                <input type="checkbox" name="game"> Сплю</br>
+                <input type="checkbox" name="game"> Гуляю з друзьями</br>
+                <input type="checkbox" name="game"> Хожу на рыбалку</br>
+                <input type="checkbox" name="game"> Играю в игры</br>
+            </p>
+            <p>
+                <b>Раскажите о формах в книге ,посвященной HTML:</b></br>
+            </p>
+            <select>
+                    <option>Site frequency:</option>
+            </select>
+            <p>
+                <b>Сколько книг вы прочитали за жизнь:</b></br>
+            </p>
+            <p>
+                <input type="radio" name="book"> 0-10</br>
+                <input type="radio" name="book"> 11-20</br>
+                <input type="radio" name="book"> 21-50</br>
+                <input type="radio" name="book"> 50+</br>
+            </p>
+           <p>
+               <b>Ваши комментарии:</b></br>
+               <textarea name="comment" cols="40" rows="3"></textarea>
+           </p>
+            <p><select size="3" multiple name="hero[]">
+                <option value="Первая позиция">Первая позиция</option>
+                <option selected value="Вторая позиция">Вторая позиция</option>
+                <option value="Третья позиция">Третья позиция</option>
+            </select></p>
+        </fieldset></p>
+        <p><fieldset>
+            <legend><b>И в заключениии</b></legend>
+            <input type="text" value="Это поле было введено до вас">
+            <p>
+                <b>Email:</b> </br>
+                <input type="email" >
+            </p>
+            <p><b>Хотите подписатся на самую модную расылку?</b></p>
+            <i>Выберите категории</i>
+            <p>
+                <input type="checkbox" name="spam"> Оборудувание</br>
+                <input type="checkbox" name="spam"> Как приготовить обеды</br>
+                <input type="checkbox" name="spam"> Заработай милионы за два дня!</br>
+            </p>
+            <P><B>На сколько сложная задача:</B></P>
+            <p>
+                <input type="radio" checked="checked" name="work"> Совсем нет</br>
+                <input type="radio" name="work"> Так себе</br>
+                <input type="radio" name="work"> Ели справились</br>
+            </p>
+        </fieldset></p>
+        <p><input type="submit"></p>
+    </form>
+</body>
+</html>
