@@ -203,6 +203,9 @@
   margin: 0 auto;
   width: 230px; }
 
+.four_section_diagram {
+  width: 100%; }
+
 .four_section, .five_section {
   background: #fff;
   text-align: center;
