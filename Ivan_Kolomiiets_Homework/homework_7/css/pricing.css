@@ -1,0 +1,89 @@
+.pricing {
+  background: #4b3b4e url("../img/Layer_2111.png") center center no-repeat;
+  background-size: cover;
+  padding-bottom: 75px; }
+
+.h2_pricing {
+  color: #d4d4d4;
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  font-weight: 700; }
+
+.bttn:hover {
+  text-decoration: none; }
+
+.br_buy_pricing {
+  background-color: rgba(255, 255, 255, 0.11);
+  width: 257px;
+  height: 430px !important;
+  margin: 100px 15px; }
+  @media (min-width: 761px) and (max-width: 380px) {
+    .br_buy_pricing {
+      height: 450px !important; } }
+  .br_buy_pricing:hover {
+    background-color: rgba(0, 0, 0, 0.11);
+    transform: scale(1.2); }
+
+.h3_prisingbg-text {
+  margin: 0 -14px;
+  padding: 15% 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #d4d4d4; }
+
+.prise_prising {
+  color: #d4d4d4;
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 90.28px; }
+  .prise_prising span {
+    font-weight: 400; }
+
+.personal_lic {
+  color: #d4d4d4;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 15px 0; }
+
+.bt_purch {
+  padding: 10px 45px;
+  border-radius: 99px;
+  background-color: rgba(232, 220, 220, 0.18);
+  color: #d4d4d4;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.45px;
+  text-transform: uppercase;
+  margin: 15px 0; }
+  .bt_purch:hover {
+    box-shadow: 0px 0px 20px 5px #8c969e;
+    text-decoration: none !important;
+    color: #fff; }
+  @media (min-width: 320px) and (max-width: 370px) {
+    .bt_purch {
+      padding: 8px 15px; } }
+  @media (min-width: 768px) and (max-width: 900px) {
+    .bt_purch {
+      padding: 8px 30px; } }
+  @media (min-width: 1200px) and (max-width: 1470px) {
+    .bt_purch {
+      padding: 8px 30px; } }
+
+.per_mont {
+  opacity: 0.3;
+  color: #d4d4d4;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.p_top_text_pric {
+  opacity: 0.8;
+  color: #a291a5;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px; }

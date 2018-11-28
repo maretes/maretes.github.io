@@ -1,0 +1,24 @@
+.testmonials {
+  background: #4b3b4e url("../img/Layer_122.png") center center no-repeat;
+  background-size: cover;
+  padding: 100px 0; }
+
+.h2_text_testmonials {
+  color: #d4d4d4;
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  font-weight: 700; }
+
+.p_text_testmonials {
+  padding-top: 30px;
+  color: #d4d4d4;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600; }
+
+.con_testmonials {
+  padding: 50px 0; }
+
+.testmonials_line {
+  background-color: #c7c7c7;
+  opacity: 0.2; }
