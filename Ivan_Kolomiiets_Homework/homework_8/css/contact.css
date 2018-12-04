@@ -1,0 +1,96 @@
+.contact {
+  background: #7690c5;
+  overflow: hidden; }
+
+.st_contact {
+  margin: 75px 0;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between; }
+  @media screen and (max-width: 600px) {
+    .st_contact {
+      justify-content: center; } }
+
+.gl_social_contact {
+  margin: 50px 0;
+  width: 45%; }
+  @media screen and (max-width: 600px) {
+    .gl_social_contact {
+      margin: 15px 0;
+      width: 100%; } }
+  .gl_social_contact p {
+    color: #fff;
+    font-family: "BrandonGrotesque-Light";
+    font-size: 18px;
+    font-weight: 400; }
+
+.form_st_contact {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  width: 50%; }
+  @media screen and (max-width: 755px) {
+    .form_st_contact {
+      width: 40%; } }
+
+.social_contact {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-flow: nowrap; }
+  @media screen and (max-width: 600px) {
+    .social_contact {
+      justify-content: space-around; } }
+
+.social_contact_row {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: space-around; }
+  .social_contact_row p {
+    margin-left: 10px; }
+    @media screen and (max-width: 370px) {
+      .social_contact_row p {
+        font-size: 14px; } }
+  .social_contact_row div {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row; }
+
+.input_name_email_contact {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around; }
+  .input_name_email_contact input {
+    color: #bbb;
+    font-family: "BrandonGrotesque-Light";
+    font-size: 18px;
+    padding-left: 10px; }
+  .input_name_email_contact textarea {
+    color: #bbb;
+    font-family: "BrandonGrotesque-Light";
+    font-size: 18px;
+    padding-left: 10px; }
+
+.n_e_input, .ms_input {
+  margin: 10px 0;
+  width: 456px;
+  border: 1px solid #ccc;
+  background-color: #fff; }
+
+.n_e_input {
+  height: 50px; }
+  @media screen and (max-width: 768px) {
+    .n_e_input {
+      width: 305px; } }
+
+.ms_input {
+  height: 210px; }
+  @media screen and (max-width: 768px) {
+    .ms_input {
+      width: 305px; } }
+
+.bt_send {
+  display: none; }

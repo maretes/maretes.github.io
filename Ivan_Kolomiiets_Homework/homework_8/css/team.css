@@ -1,0 +1,61 @@
+.team {
+  background: #111;
+  overflow: hidden;
+  text-align: center; }
+
+.st_team {
+  margin: 100px 0; }
+
+@media screen and (max-width: 486px) {
+  .user_team img {
+    width: 70%; } }
+
+.g_text_team_h2 {
+  color: #fff;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 60px;
+  font-weight: 300; }
+  .g_text_team_h2 b {
+    font-family: "Brandon Grotesque-Bold"; }
+
+.g_text_team_p {
+  color: #777;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 22px; }
+
+.list_team_comand {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 0; }
+
+.team_social img:hover {
+  border-radius: 100px;
+  filter: opacity(40%);
+  box-shadow: 0 5px 47px -5px white; }
+
+.team_person {
+  margin: 10px 0; }
+
+.team_person_name_skills {
+  margin: 5px 0; }
+  .team_person_name_skills h4 {
+    color: #fff;
+    font-family: "Brandon Grotesque-Bold";
+    font-size: 18px;
+    font-weight: 700; }
+  .team_person_name_skills p {
+    color: #fff;
+    font-family: "BrandonGrotesque-Light";
+    font-size: 16px;
+    font-weight: 400; }
+
+.text_team_about {
+  margin: auto;
+  width: 70%; }
+  .text_team_about p {
+    color: #ebebeb;
+    font-family: "BrandonGrotesque-Light";
+    font-size: 20px;
+    font-weight: 400; }

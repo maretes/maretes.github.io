@@ -1,0 +1,579 @@
+@font-face {
+  font-family: 'BrandonGrotesque-MediumItalic';
+  src: url("../fonts/BrandonGrotesque-MediumItalic.eot");
+  src: local("../fonts/Brandon Grotesque Medium Italic"), local("../fonts/BrandonGrotesque-MediumItalic"), url("../fonts/BrandonGrotesque-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonGrotesque-MediumItalic.woff") format("woff"), url("../fonts/BrandonGrotesque-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brandon Grotesque-Bold';
+  src: url("../fonts/BrandonGrotesque-Bold.eot");
+  src: local("../fonts/Brandon Grotesque Bold"), local("../fonts/BrandonGrotesque-Bold"), url("../fonts/BrandonGrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonGrotesque-Bold.woff") format("woff"), url("../fonts/BrandonGrotesque-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'BrandonGrotesque-Light';
+  src: url("../fonts/BrandonGrotesque-Light.eot");
+  src: local("../fonts/Brandon Grotesque Light"), local("../fonts/BrandonGrotesque-Light"), url("../fonts/BrandonGrotesque-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonGrotesque-Light.woff") format("woff"), url("../fonts/BrandonGrotesque-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'BrandonGrotesque-Black';
+  src: url("../fonts/BrandonGrotesque-Black.eot");
+  src: local("../fonts/Brandon Grotesque Black"), local("../fonts/BrandonGrotesque-Black"), url("../fonts/BrandonGrotesque-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonGrotesque-Black.woff") format("woff"), url("../fonts/BrandonGrotesque-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'BrandonGrotesque-Medium';
+  src: url("../fonts/BrandonGrotesque-Medium.eot");
+  src: local("../fonts/Brandon Grotesque Medium"), local("../fonts/BrandonGrotesque-Medium"), url("../fonts/BrandonGrotesque-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonGrotesque-Medium.woff") format("woff"), url("../fonts/BrandonGrotesque-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'BrandonGrotesque-ThinItalic';
+  src: url("../fonts/BrandonGrotesque-ThinItalic.eot");
+  src: local("../fonts/Brandon Grotesque Thin Italic"), local("../fonts/BrandonGrotesque-ThinItalic"), url("../fonts/BrandonGrotesque-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonGrotesque-ThinItalic.woff") format("woff"), url("../fonts/BrandonGrotesque-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'BrandonGrotesque-Thin';
+  src: url("../fonts/BrandonGrotesque-Thin.eot");
+  src: local("../fonts/Brandon Grotesque Thin"), local("../fonts/BrandonGrotesque-Thin"), url("../fonts/BrandonGrotesque-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonGrotesque-Thin.woff") format("woff"), url("../fonts/BrandonGrotesque-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'BrandonGrotesque-LightItalic';
+  src: url("../fonts/BrandonGrotesque-LightItalic.eot");
+  src: local("../fonts/Brandon Grotesque Light Italic"), local("../fonts/BrandonGrotesque-LightItalic"), url("../fonts/BrandonGrotesque-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonGrotesque-LightItalic.woff") format("woff"), url("../fonts/BrandonGrotesque-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'BrandonGrotesque-Regular';
+  src: url("../fonts/BrandonGrotesque-Regular.eot");
+  src: local("../fonts/Brandon Grotesque Regular"), local("../fonts/BrandonGrotesque-Regular"), url("../fonts/BrandonGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonGrotesque-Regular.woff") format("woff"), url("../fonts/BrandonGrotesque-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'BrandonGrotesque-RegularItalic';
+  src: url("../fonts/BrandonGrotesque-RegularItalic.eot");
+  src: local("../fonts/Brandon Grotesque Regular Italic"), local("../fonts/BrandonGrotesque-RegularItalic"), url("../fonts/BrandonGrotesque-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonGrotesque-RegularItalic.woff") format("woff"), url("../fonts/BrandonGrotesque-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'BrandonGrotesque-BoldItalic';
+  src: url("../fonts/BrandonGrotesque-BoldItalic.eot");
+  src: local("../fonts/Brandon Grotesque Bold Italic"), local("../fonts/BrandonGrotesque-BoldItalic"), url("../fonts/BrandonGrotesque-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonGrotesque-BoldItalic.woff") format("woff"), url("../fonts/BrandonGrotesque-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'BrandonGrotesque-BlackItalic';
+  src: url("../fonts/BrandonGrotesque-BlackItalic.eot");
+  src: local("../fonts/Brandon Grotesque Black Italic"), local("../fonts/BrandonGrotesque-BlackItalic"), url("../fonts/BrandonGrotesque-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonGrotesque-BlackItalic.woff") format("woff"), url("../fonts/BrandonGrotesque-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic; }
+
+.header {
+  margin: 50px 0; }
+
+.logo img:hover {
+  filter: opacity(66%); }
+
+.hed_content {
+  display: flex;
+  justify-content: space-between; }
+  @media screen and (max-width: 600px) {
+    .hed_content {
+      flex-direction: column;
+      justify-content: center; } }
+
+.nav {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: center; }
+  .nav div {
+    margin: 0 15px; }
+  @media screen and (max-width: 600px) {
+    .nav {
+      flex-direction: column; } }
+
+.bt_nav_st {
+  color: #fff;
+  font-family: "BrandonGrotesque-Medium";
+  font-size: 18px; }
+  .bt_nav_st:hover {
+    color: #d4d4d4; }
+
+.home {
+  margin: 105px 0; }
+  @media screen and (max-width: 600px) {
+    .home {
+      margin: 50px 0; } }
+
+.hom_content {
+  display: flex;
+  flex-flow: column;
+  text-align: center; }
+
+.hom_content div {
+  margin: 20px 0; }
+
+.bt_st_home {
+  margin-top: 65px !important; }
+
+.h3_text_home {
+  color: #fff;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 32px;
+  font-weight: 100; }
+  @media screen and (max-width: 600px) {
+    .h3_text_home {
+      font-size: 20px; } }
+
+.h2_text_home {
+  color: #fff;
+  font-family: "Brandon Grotesque-Bold";
+  font-size: 66px;
+  font-weight: 700;
+  text-transform: uppercase; }
+  @media screen and (max-width: 600px) {
+    .h2_text_home {
+      font-size: 40px; } }
+
+.bt_link_home {
+  color: #fff;
+  font-family: "Brandon Grotesque-Bold";
+  font-size: 23px;
+  font-weight: 700;
+  padding: 15px 60px;
+  border: 1px #fff solid;
+  border-radius: 5px; }
+  .bt_link_home:hover {
+    color: #d4d4d4;
+    border: none;
+    box-shadow: inset 0 5px 43px 7px rgba(255, 255, 255, 0.8); }
+
+.web_dev {
+  background: #fff; }
+
+.conteiner_text {
+  width: 60%; }
+  @media screen and (max-width: 740px) {
+    .conteiner_text {
+      width: 100%; } }
+
+.dev_text {
+  color: #222;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 60px; }
+  .dev_text b {
+    font-family: "BrandonGrotesque-Medium";
+    font-weight: 700; }
+
+.block_text p {
+  margin: 10px 0;
+  color: #777;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px; }
+
+.web_dev_list {
+  margin: 100px 0; }
+  @media screen and (max-width: 740px) {
+    .web_dev_list {
+      margin: 50px 0; } }
+
+@media screen and (max-width: 740px) {
+  ._img_size img {
+    display: none; } }
+
+.web_dev_st_dev {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between; }
+  @media screen and (max-width: 740px) {
+    .web_dev_st_dev {
+      flex-flow: column;
+      align-items: center; } }
+
+.web_dev_list {
+  width: 70%; }
+  @media screen and (max-width: 740px) {
+    .web_dev_list {
+      width: 100%; } }
+
+.identity {
+  background: #fafafa;
+  overflow: hidden; }
+
+.st_identity {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  align-items: center; }
+  @media screen and (max-width: 740px) {
+    .st_identity {
+      flex-flow: column;
+      align-items: center;
+      margin: 50px 0; } }
+
+.skills {
+  background: #fff;
+  margin: 100px 0; }
+  @media screen and (max-width: 740px) {
+    .skills {
+      margin: 50px 0; } }
+
+.st_skills {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between; }
+
+.list_skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 420px; }
+  @media screen and (max-width: 840px) {
+    .list_skills {
+      max-width: 370px; } }
+  @media screen and (max-width: 740px) {
+    .list_skills {
+      max-width: 340px; } }
+  .list_skills div {
+    margin: 10px 10px; }
+    .list_skills div h4 {
+      color: #222;
+      font-family: "Brandon Grotesque-Bold";
+      font-size: 22px; }
+    .list_skills div p {
+      color: #777;
+      font-family: "BrandonGrotesque-Light";
+      font-size: 18px; }
+
+.clients {
+  background: #fafafa;
+  overflow: hidden; }
+
+.img_client_bubles {
+  width: 200px; }
+  @media screen and (max-width: 740px) {
+    .img_client_bubles {
+      width: 100px; } }
+  @media screen and (max-width: 450px) {
+    .img_client_bubles {
+      width: 70px; } }
+
+.st_clients {
+  text-align: center;
+  margin: 100px 0; }
+  @media screen and (max-width: 740px) {
+    .st_clients {
+      margin: 50px 0; } }
+
+.st_clients_h2 {
+  color: #222;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 60px;
+  font-weight: 300; }
+
+.st_clients_p {
+  color: #777;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 22px;
+  font-weight: 400; }
+
+.bubble_text_one {
+  color: #777;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 26px;
+  font-weight: 700; }
+  @media screen and (max-width: 740px) {
+    .bubble_text_one {
+      font-size: 16px; } }
+
+.bubble_text_two {
+  color: #7690c5;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 20px; }
+  @media screen and (max-width: 740px) {
+    .bubble_text_two {
+      font-size: 12px; } }
+
+.speech-bubble {
+  text-align: left; }
+  @media screen and (max-width: 425px) {
+    .speech-bubble {
+      width: 425px; } }
+
+.bubble_clients {
+  display: flex;
+  align-items: center;
+  margin: 50px 0; }
+
+.bubble {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 6px #B2B2B2;
+  display: inline-block;
+  padding: 10px 18px;
+  position: relative;
+  vertical-align: top; }
+
+.bubble:before {
+  background-color: #fff;
+  content: "\00a0";
+  display: block;
+  height: 16px;
+  position: absolute;
+  top: 60px;
+  transform: rotate(29deg) skew(-35deg);
+  width: 20px; }
+
+.me {
+  padding: 40px 75px;
+  float: left;
+  margin: 5px 45px 5px 20px; }
+  @media screen and (max-width: 740px) {
+    .me {
+      padding: 40px 20px; } }
+  @media screen and (max-width: 450px) {
+    .me {
+      padding: 25px 10px; } }
+
+.me:before {
+  box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, 0.4);
+  left: -9px; }
+
+.you {
+  padding: 40px 75px;
+  float: right;
+  margin: 5px 20px 5px 45px; }
+  @media screen and (max-width: 740px) {
+    .you {
+      padding: 40px 20px; } }
+  @media screen and (max-width: 450px) {
+    .you {
+      padding: 25px 10px; } }
+
+.you:before {
+  box-shadow: 2px -2px 2px 0 rgba(178, 178, 178, 0.4);
+  right: -9px; }
+
+.logos {
+  background: #fff; }
+
+.logos_list {
+  margin: 50px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .logos_list div {
+    margin: 10px 0; }
+    .logos_list div a:hover {
+      filter: opacity(66%); }
+
+.team {
+  background: #111;
+  overflow: hidden;
+  text-align: center; }
+
+.st_team {
+  margin: 100px 0; }
+
+@media screen and (max-width: 486px) {
+  .user_team img {
+    width: 70%; } }
+
+.g_text_team_h2 {
+  color: #fff;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 60px;
+  font-weight: 300; }
+  .g_text_team_h2 b {
+    font-family: "Brandon Grotesque-Bold"; }
+
+.g_text_team_p {
+  color: #777;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 22px; }
+
+.list_team_comand {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 0; }
+
+.team_social img:hover {
+  border-radius: 100px;
+  filter: opacity(40%);
+  box-shadow: 0 5px 47px -5px white; }
+
+.team_person {
+  margin: 10px 0; }
+
+.team_person_name_skills {
+  margin: 5px 0; }
+  .team_person_name_skills h4 {
+    color: #fff;
+    font-family: "Brandon Grotesque-Bold";
+    font-size: 18px;
+    font-weight: 700; }
+  .team_person_name_skills p {
+    color: #fff;
+    font-family: "BrandonGrotesque-Light";
+    font-size: 16px;
+    font-weight: 400; }
+
+.text_team_about {
+  margin: auto;
+  width: 70%; }
+  .text_team_about p {
+    color: #ebebeb;
+    font-family: "BrandonGrotesque-Light";
+    font-size: 20px;
+    font-weight: 400; }
+
+.contact {
+  background: #7690c5;
+  overflow: hidden; }
+
+.st_contact {
+  margin: 75px 0;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between; }
+  @media screen and (max-width: 600px) {
+    .st_contact {
+      justify-content: center; } }
+
+.gl_social_contact {
+  margin: 50px 0;
+  width: 45%; }
+  @media screen and (max-width: 600px) {
+    .gl_social_contact {
+      margin: 15px 0;
+      width: 100%; } }
+  .gl_social_contact p {
+    color: #fff;
+    font-family: "BrandonGrotesque-Light";
+    font-size: 18px;
+    font-weight: 400; }
+
+.form_st_contact {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  width: 50%; }
+  @media screen and (max-width: 755px) {
+    .form_st_contact {
+      width: 40%; } }
+
+.social_contact {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-flow: nowrap; }
+  @media screen and (max-width: 600px) {
+    .social_contact {
+      justify-content: space-around; } }
+
+.social_contact_row {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: space-around; }
+  .social_contact_row p {
+    margin-left: 10px; }
+    @media screen and (max-width: 370px) {
+      .social_contact_row p {
+        font-size: 14px; } }
+  .social_contact_row div {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row; }
+
+.input_name_email_contact {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around; }
+  .input_name_email_contact input {
+    color: #bbb;
+    font-family: "BrandonGrotesque-Light";
+    font-size: 18px;
+    padding-left: 10px; }
+  .input_name_email_contact textarea {
+    color: #bbb;
+    font-family: "BrandonGrotesque-Light";
+    font-size: 18px;
+    padding-left: 10px; }
+
+.n_e_input, .ms_input {
+  margin: 10px 0;
+  width: 456px;
+  border: 1px solid #ccc;
+  background-color: #fff; }
+
+.n_e_input {
+  height: 50px; }
+  @media screen and (max-width: 768px) {
+    .n_e_input {
+      width: 305px; } }
+
+.ms_input {
+  height: 210px; }
+  @media screen and (max-width: 768px) {
+    .ms_input {
+      width: 305px; } }
+
+.bt_send {
+  display: none; }
+
+.footer {
+  background: #7690c5;
+  text-align: center;
+  overflow: hidden; }
+  .footer hr {
+    border: 1px solid #87a0d2; }
+
+.copyr_text h4 {
+  margin: 30px 0;
+  color: #fff;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 16px;
+  font-weight: 400; }
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+.center_content {
+  margin: auto; }
+
+.g_content {
+  max-width: 944px;
+  width: 100%; }
+
+.top {
+  background: #000 url("../img/bg_home.png") no-repeat center;
+  background-size: cover;
+  min-height: 568px;
+  overflow: hidden; }

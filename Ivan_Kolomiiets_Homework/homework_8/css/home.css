@@ -1,0 +1,48 @@
+.home {
+  margin: 105px 0; }
+  @media screen and (max-width: 600px) {
+    .home {
+      margin: 50px 0; } }
+
+.hom_content {
+  display: flex;
+  flex-flow: column;
+  text-align: center; }
+
+.hom_content div {
+  margin: 20px 0; }
+
+.bt_st_home {
+  margin-top: 65px !important; }
+
+.h3_text_home {
+  color: #fff;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 32px;
+  font-weight: 100; }
+  @media screen and (max-width: 600px) {
+    .h3_text_home {
+      font-size: 20px; } }
+
+.h2_text_home {
+  color: #fff;
+  font-family: "Brandon Grotesque-Bold";
+  font-size: 66px;
+  font-weight: 700;
+  text-transform: uppercase; }
+  @media screen and (max-width: 600px) {
+    .h2_text_home {
+      font-size: 40px; } }
+
+.bt_link_home {
+  color: #fff;
+  font-family: "Brandon Grotesque-Bold";
+  font-size: 23px;
+  font-weight: 700;
+  padding: 15px 60px;
+  border: 1px #fff solid;
+  border-radius: 5px; }
+  .bt_link_home:hover {
+    color: #d4d4d4;
+    border: none;
+    box-shadow: inset 0 5px 43px 7px rgba(255, 255, 255, 0.8); }

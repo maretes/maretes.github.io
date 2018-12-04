@@ -1,0 +1,100 @@
+.web_dev {
+  background: #fff; }
+
+.conteiner_text {
+  width: 60%; }
+  @media screen and (max-width: 740px) {
+    .conteiner_text {
+      width: 100%; } }
+
+.dev_text {
+  color: #222;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 60px; }
+  .dev_text b {
+    font-family: "BrandonGrotesque-Medium";
+    font-weight: 700; }
+
+.block_text p {
+  margin: 10px 0;
+  color: #777;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px; }
+
+.web_dev_list {
+  margin: 100px 0; }
+  @media screen and (max-width: 740px) {
+    .web_dev_list {
+      margin: 50px 0; } }
+
+@media screen and (max-width: 740px) {
+  ._img_size img {
+    display: none; } }
+
+.web_dev_st_dev {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between; }
+  @media screen and (max-width: 740px) {
+    .web_dev_st_dev {
+      flex-flow: column;
+      align-items: center; } }
+
+.web_dev_list {
+  width: 70%; }
+  @media screen and (max-width: 740px) {
+    .web_dev_list {
+      width: 100%; } }
+
+.identity {
+  background: #fafafa;
+  overflow: hidden; }
+
+.st_identity {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  align-items: center; }
+  @media screen and (max-width: 740px) {
+    .st_identity {
+      flex-flow: column;
+      align-items: center;
+      margin: 50px 0; } }
+
+.skills {
+  background: #fff;
+  margin: 100px 0; }
+  @media screen and (max-width: 740px) {
+    .skills {
+      margin: 50px 0; } }
+
+.st_skills {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between; }
+
+.list_skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 420px; }
+  @media screen and (max-width: 840px) {
+    .list_skills {
+      max-width: 370px; } }
+  @media screen and (max-width: 740px) {
+    .list_skills {
+      max-width: 340px; } }
+  .list_skills div {
+    margin: 10px 10px; }
+    .list_skills div h4 {
+      color: #222;
+      font-family: "Brandon Grotesque-Bold";
+      font-size: 22px; }
+    .list_skills div p {
+      color: #777;
+      font-family: "BrandonGrotesque-Light";
+      font-size: 18px; }

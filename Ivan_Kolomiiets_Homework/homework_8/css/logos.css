@@ -1,0 +1,13 @@
+.logos {
+  background: #fff; }
+
+.logos_list {
+  margin: 50px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .logos_list div {
+    margin: 10px 0; }
+    .logos_list div a:hover {
+      filter: opacity(66%); }

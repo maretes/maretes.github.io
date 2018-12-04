@@ -1,0 +1,13 @@
+.footer {
+  background: #7690c5;
+  text-align: center;
+  overflow: hidden; }
+  .footer hr {
+    border: 1px solid #87a0d2; }
+
+.copyr_text h4 {
+  margin: 30px 0;
+  color: #fff;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 16px;
+  font-weight: 400; }

@@ -1,0 +1,108 @@
+.clients {
+  background: #fafafa;
+  overflow: hidden; }
+
+.img_client_bubles {
+  width: 200px; }
+  @media screen and (max-width: 740px) {
+    .img_client_bubles {
+      width: 100px; } }
+  @media screen and (max-width: 450px) {
+    .img_client_bubles {
+      width: 70px; } }
+
+.st_clients {
+  text-align: center;
+  margin: 100px 0; }
+  @media screen and (max-width: 740px) {
+    .st_clients {
+      margin: 50px 0; } }
+
+.st_clients_h2 {
+  color: #222;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 60px;
+  font-weight: 300; }
+
+.st_clients_p {
+  color: #777;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 22px;
+  font-weight: 400; }
+
+.bubble_text_one {
+  color: #777;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 26px;
+  font-weight: 700; }
+  @media screen and (max-width: 740px) {
+    .bubble_text_one {
+      font-size: 16px; } }
+
+.bubble_text_two {
+  color: #7690c5;
+  font-family: "BrandonGrotesque-Light";
+  font-size: 20px; }
+  @media screen and (max-width: 740px) {
+    .bubble_text_two {
+      font-size: 12px; } }
+
+.speech-bubble {
+  text-align: left; }
+  @media screen and (max-width: 425px) {
+    .speech-bubble {
+      width: 425px; } }
+
+.bubble_clients {
+  display: flex;
+  align-items: center;
+  margin: 50px 0; }
+
+.bubble {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 6px #B2B2B2;
+  display: inline-block;
+  padding: 10px 18px;
+  position: relative;
+  vertical-align: top; }
+
+.bubble:before {
+  background-color: #fff;
+  content: "\00a0";
+  display: block;
+  height: 16px;
+  position: absolute;
+  top: 60px;
+  transform: rotate(29deg) skew(-35deg);
+  width: 20px; }
+
+.me {
+  padding: 40px 75px;
+  float: left;
+  margin: 5px 45px 5px 20px; }
+  @media screen and (max-width: 740px) {
+    .me {
+      padding: 40px 20px; } }
+  @media screen and (max-width: 450px) {
+    .me {
+      padding: 25px 10px; } }
+
+.me:before {
+  box-shadow: -2px 2px 2px 0 rgba(178, 178, 178, 0.4);
+  left: -9px; }
+
+.you {
+  padding: 40px 75px;
+  float: right;
+  margin: 5px 20px 5px 45px; }
+  @media screen and (max-width: 740px) {
+    .you {
+      padding: 40px 20px; } }
+  @media screen and (max-width: 450px) {
+    .you {
+      padding: 25px 10px; } }
+
+.you:before {
+  box-shadow: 2px -2px 2px 0 rgba(178, 178, 178, 0.4);
+  right: -9px; }
