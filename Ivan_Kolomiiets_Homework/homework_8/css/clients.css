@@ -3,13 +3,18 @@
   overflow: hidden; }
 
 .img_client_bubles {
-  width: 200px; }
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 7px solid #fff; }
   @media screen and (max-width: 740px) {
     .img_client_bubles {
-      width: 100px; } }
+      width: 100px;
+      height: 100px; } }
   @media screen and (max-width: 450px) {
     .img_client_bubles {
-      width: 70px; } }
+      width: 70px;
+      height: 70px; } }
 
 .st_clients {
   text-align: center;

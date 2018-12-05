@@ -13,12 +13,18 @@
       justify-content: center; } }
 
 .gl_social_contact {
-  margin: 50px 0;
   width: 45%; }
   @media screen and (max-width: 600px) {
     .gl_social_contact {
       margin: 15px 0;
       width: 100%; } }
+  .gl_social_contact h2 {
+    color: #fff;
+    font-family: "BrandonGrotesque-Light";
+    font-weight: 300;
+    font-size: 60px; }
+    .gl_social_contact h2 b {
+      font-family: "Brandon Grotesque-Bold"; }
   .gl_social_contact p {
     color: #fff;
     font-family: "BrandonGrotesque-Light";

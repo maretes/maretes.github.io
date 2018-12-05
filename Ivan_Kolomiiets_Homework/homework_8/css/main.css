@@ -269,13 +269,18 @@
   overflow: hidden; }
 
 .img_client_bubles {
-  width: 200px; }
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 7px solid #fff; }
   @media screen and (max-width: 740px) {
     .img_client_bubles {
-      width: 100px; } }
+      width: 100px;
+      height: 100px; } }
   @media screen and (max-width: 450px) {
     .img_client_bubles {
-      width: 70px; } }
+      width: 70px;
+      height: 70px; } }
 
 .st_clients {
   text-align: center;
@@ -395,9 +400,15 @@
 .st_team {
   margin: 100px 0; }
 
-@media screen and (max-width: 486px) {
-  .user_team img {
-    width: 70%; } }
+.user_team img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 7px solid #fff; }
+  @media screen and (max-width: 486px) {
+    .user_team img {
+      width: 180px;
+      height: 180px; } }
 
 .g_text_team_h2 {
   color: #fff;
@@ -464,12 +475,18 @@
       justify-content: center; } }
 
 .gl_social_contact {
-  margin: 50px 0;
   width: 45%; }
   @media screen and (max-width: 600px) {
     .gl_social_contact {
       margin: 15px 0;
       width: 100%; } }
+  .gl_social_contact h2 {
+    color: #fff;
+    font-family: "BrandonGrotesque-Light";
+    font-weight: 300;
+    font-size: 60px; }
+    .gl_social_contact h2 b {
+      font-family: "Brandon Grotesque-Bold"; }
   .gl_social_contact p {
     color: #fff;
     font-family: "BrandonGrotesque-Light";

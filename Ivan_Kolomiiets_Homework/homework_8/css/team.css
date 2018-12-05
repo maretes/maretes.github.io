@@ -6,9 +6,15 @@
 .st_team {
   margin: 100px 0; }
 
-@media screen and (max-width: 486px) {
-  .user_team img {
-    width: 70%; } }
+.user_team img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 7px solid #fff; }
+  @media screen and (max-width: 486px) {
+    .user_team img {
+      width: 180px;
+      height: 180px; } }
 
 .g_text_team_h2 {
   color: #fff;
