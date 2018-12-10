@@ -1,16 +1,18 @@
+@charset "UTF-8";
 .header {
-  margin: 50px 0; }
+  margin: 50px 0;
+  padding: 10px 15px; }
 
 .logo img:hover {
   filter: opacity(66%); }
 
 .hed_content {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
   @media screen and (max-width: 600px) {
     .hed_content {
-      flex-direction: column;
-      justify-content: center; } }
+      align-items: baseline; } }
 
 .nav {
   display: flex;
@@ -23,9 +25,34 @@
     .nav {
       flex-direction: column; } }
 
-.bt_nav_st {
+.menu li {
+  float: left;
+  /* пункты меню в ряд */
+  list-style: none; }
+
+.menu li a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
   color: #fff;
   font-family: "BrandonGrotesque-Medium";
   font-size: 18px; }
-  .bt_nav_st:hover {
+  .menu li a:hover {
     color: #d4d4d4; }
+
+.menuBurger {
+  display: none;
+  /* кнопка гамбургер скрыта */
+  cursor: pointer; }
+
+@media screen and (max-width: 600px) {
+  .menu {
+    display: none;
+    /* пункты меню скрыты */
+    text-align: center; }
+  .menu li {
+    float: none;
+    /* пункты меню в столбцах */ }
+  .menuBurger {
+    display: inline-block;
+    /* иконка гамбургер видна */ } }

@@ -28,6 +28,9 @@
   font-family: "BrandonGrotesque-Light";
   font-size: 60px;
   font-weight: 300; }
+  @media screen and (max-width: 600px) {
+    .st_clients_h2 {
+      font-size: 40px; } }
 
 .st_clients_p {
   color: #777;

@@ -1,4 +1,5 @@
 .web_dev {
+  padding: 10px 15px;
   background: #fff; }
 
 .conteiner_text {
@@ -14,6 +15,9 @@
   .dev_text b {
     font-family: "BrandonGrotesque-Medium";
     font-weight: 700; }
+  @media screen and (max-width: 600px) {
+    .dev_text {
+      font-size: 40px; } }
 
 .block_text p {
   margin: 10px 0;
@@ -51,6 +55,7 @@
 
 .identity {
   background: #fafafa;
+  padding: 10px 15px;
   overflow: hidden; }
 
 .st_identity {

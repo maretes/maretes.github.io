@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'BrandonGrotesque-MediumItalic';
   src: url("../fonts/BrandonGrotesque-MediumItalic.eot");
@@ -83,18 +84,19 @@
   font-style: italic; }
 
 .header {
-  margin: 50px 0; }
+  margin: 50px 0;
+  padding: 10px 15px; }
 
 .logo img:hover {
   filter: opacity(66%); }
 
 .hed_content {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
   @media screen and (max-width: 600px) {
     .hed_content {
-      flex-direction: column;
-      justify-content: center; } }
+      align-items: baseline; } }
 
 .nav {
   display: flex;
@@ -107,15 +109,41 @@
     .nav {
       flex-direction: column; } }
 
-.bt_nav_st {
+.menu li {
+  float: left;
+  /* пункты меню в ряд */
+  list-style: none; }
+
+.menu li a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
   color: #fff;
   font-family: "BrandonGrotesque-Medium";
   font-size: 18px; }
-  .bt_nav_st:hover {
+  .menu li a:hover {
     color: #d4d4d4; }
 
+.menuBurger {
+  display: none;
+  /* кнопка гамбургер скрыта */
+  cursor: pointer; }
+
+@media screen and (max-width: 600px) {
+  .menu {
+    display: none;
+    /* пункты меню скрыты */
+    text-align: center; }
+  .menu li {
+    float: none;
+    /* пункты меню в столбцах */ }
+  .menuBurger {
+    display: inline-block;
+    /* иконка гамбургер видна */ } }
+
 .home {
-  margin: 105px 0; }
+  margin: 105px 0;
+  padding: 10px 15px; }
   @media screen and (max-width: 600px) {
     .home {
       margin: 50px 0; } }
@@ -164,6 +192,7 @@
     box-shadow: inset 0 5px 43px 7px rgba(255, 255, 255, 0.8); }
 
 .web_dev {
+  padding: 10px 15px;
   background: #fff; }
 
 .conteiner_text {
@@ -179,6 +208,9 @@
   .dev_text b {
     font-family: "BrandonGrotesque-Medium";
     font-weight: 700; }
+  @media screen and (max-width: 600px) {
+    .dev_text {
+      font-size: 40px; } }
 
 .block_text p {
   margin: 10px 0;
@@ -216,6 +248,7 @@
 
 .identity {
   background: #fafafa;
+  padding: 10px 15px;
   overflow: hidden; }
 
 .st_identity {
@@ -294,6 +327,9 @@
   font-family: "BrandonGrotesque-Light";
   font-size: 60px;
   font-weight: 300; }
+  @media screen and (max-width: 600px) {
+    .st_clients_h2 {
+      font-size: 40px; } }
 
 .st_clients_p {
   color: #777;
@@ -462,6 +498,7 @@
 
 .contact {
   background: #7690c5;
+  padding: 0 5px;
   overflow: hidden; }
 
 .st_contact {
