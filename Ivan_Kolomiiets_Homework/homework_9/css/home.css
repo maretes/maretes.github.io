@@ -32,4 +32,6 @@
   .home__button:hover {
     box-shadow: 0 5px 50px white;
     border: none;
-    color: lightgoldenrodyellow; }
+    color: #29323c;
+    text-decoration: none;
+    background: #e8e8e8; }
