@@ -1,0 +1,35 @@
+.home {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  max-width: 625px !important;
+  padding: 100px 0 50px;
+  min-height: 320px; }
+
+.home__text-h1 {
+  padding: 0 15px;
+  color: #e8e8e8;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 700; }
+
+.home__text-p {
+  padding: 15px 0 40px;
+  color: #e8e8e8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 300; }
+
+.home__button {
+  padding: 12px 35px;
+  border: 1px solid #f2f2f2;
+  border-radius: 40px;
+  color: #e8e8e8;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .home__button:hover {
+    box-shadow: 0 5px 50px white;
+    border: none;
+    color: lightgoldenrodyellow; }

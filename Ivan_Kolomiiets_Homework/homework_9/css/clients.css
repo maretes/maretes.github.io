@@ -1,0 +1,14 @@
+.clients {
+  background: #f5f5f5;
+  padding: 15px 0; }
+
+.clients__list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center; }
+  .clients__list img {
+    padding: 5px; }
+  .clients__list a:hover {
+    opacity: .5; }

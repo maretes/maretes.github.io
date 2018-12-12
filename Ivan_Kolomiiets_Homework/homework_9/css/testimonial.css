@@ -1,0 +1,48 @@
+.testimonial {
+  padding: 50px 0; }
+
+.testimonial__title-carusel {
+  text-align: center; }
+
+.carousel-indicators .active {
+  background-color: #2b3746 !important; }
+
+.st_carusel {
+  padding: 50px 10px; }
+
+.set_carusel li {
+  padding: 5px;
+  width: 0 !important;
+  height: 0 !important;
+  border: 1px solid #555f6b;
+  border-radius: 99px; }
+
+.testimonial__title {
+  text-align: center; }
+
+.testimonial__title-carusel-text h3 {
+  color: #29323c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 700; }
+
+.testimonial__title-carusel-text h4 {
+  opacity: 0.8;
+  color: #29323c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400; }
+
+.testimonial__title-carusel-text p {
+  color: #29323c;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
+
+.testimonial__title-carusel-text h6 {
+  opacity: 0.5;
+  color: #29323c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic; }
