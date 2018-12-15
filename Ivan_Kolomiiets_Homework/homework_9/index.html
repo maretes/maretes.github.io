@@ -456,7 +456,9 @@
     </section>
     <section class="contact">
         <div class="contact__block">
-            <div class="contact__block-maps"></div>
+            <div class="contact__block-maps">
+                <div id="map"></div>
+            </div>
             <div class="contact__block-form">
                 <form>
                     <div>
@@ -495,7 +497,6 @@
                     <a href="#"> <img src="img/facebook7.png"></a>
                     <a href="#"> <img src="img/social71.png"></a>
                     <a href="#"> <img src="img/social92.png"></a>
-                    <a href="#"><img src="img/dribble.png"></a>
                 </div>
             </div>
         </div>
@@ -517,6 +518,21 @@
         columnWidth: 0,
         isFitWidth: true
     });
+</script>
+<script>
+    // Initialize and add the map
+    function initMap() {
+        // The location of Uluru
+        var uluru = {lat: -25.344, lng: 131.036};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 4, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?AIzaSyAVlHVk_jsYx8jH1Gcllp-OyobU31OKDeM&callback=initMap">
 </script>
 </body>
 
