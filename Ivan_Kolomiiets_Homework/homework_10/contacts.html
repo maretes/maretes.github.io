@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    <title>HW-10</title>
+</head>
+<body>
+<div class="contacts-wrapper ">
+    <header class="conteiner-block m-auto">
+        <nav class="navbar st-navbar d-flex justify-content-between navbar-expand-lg navbar-light m-auto col-11 col-sm-11 col-md-11 col-lg-12 col-xl-11 ">
+            <a class="navbar-brand st-brand" href="#"><img src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center  st-navbar st-navbar-contacts-page"
+                 id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link st-color-link st-color-link-contacts active" href="index.html">Home</a>
+                    <a class="nav-item nav-link st-color-link st-color-link-contacts" href="service.html">Services</a>
+                    <a class="nav-item nav-link st-color-link st-color-link-contacts" href="about.html">About</a>
+                    <a class="nav-item nav-link st-color-link st-color-link-contacts" href="work.html">Work</a>
+                    <a class="nav-item nav-link st-color-link st-color-link-contacts" href="contacts.html">Contacts</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="contacts-conteiner conteiner-block m-auto">
+        <div class="contacts_title text-center">
+            <h2>CONTACT US</h2>
+            <p>Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat
+                rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante
+                vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere
+                quis.</p>
+        </div>
+        <div class="contacts_block ">
+            <div class="contacts_list-contacts">
+                <div class="contacts_list-contacts-number-adress ">
+                    <h3 class="contacts_list-contacts-h3">Address</h3>
+                    <div class="contacts_adress">
+                        <h3>Acrostia</h3>
+                        <p>Sevenoaks Rd Sevenoaks TN14 7HR, UK</p>
+                    </div>
+                    <div class="contacts_contacts">
+                        <p>
+                            <span>Phone:</span> +44 555 555 555
+                            <span> Fax: </span>+44 556 555 555 555
+                            <span> E-mail:</span> info@acrostia.com
+                            <span> Skype:</span> Ac0stia
+                        </p>
+                    </div>
+                </div>
+                <div class="st-maps ">
+                    <div id="map"></div>
+                </div>
+            </div>
+            <div class="contacts_list-form">
+                <h3>Ask a question</h3>
+                <form name="#" action="#" method="post">
+                    <div class="input_name_email_contact ">
+                        <div class="input_name">
+                            <label for="check1"></label>
+                            <input class="contact__block-form-input" id="check1" type="text" name="name"
+                                   placeholder="Name" required="">
+                        </div>
+                        <div class="input_email ">
+                            <label for="check2"></label>
+                            <input class="contact__block-form-input" id="check2" type="email" name="email"
+                                   placeholder="Email" required="">
+                        </div>
+                    </div>
+                    <div class="input_name_email_contact  ">
+                        <label for="check3"></label>
+                        <textarea id="check3" name="message" placeholder="Your question"> </textarea>
+                    </div>
+                    <div class="contact__block-form-subit d-flex justify-content-center">
+                        <button type="submit"> Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_social_link">
+            <a class="footer_social_link-f" href="#"><img src="img/contacts/facebook.png"> </a>
+            <a class="footer_social_link-t" href="#"><img src="img/contacts/twit.png"> </a>
+            <a class="footer_social_link-g" href="#"><img src="img/contacts/g+.png"> </a>
+            <a class="footer_social_link-l" href="#"><img src="img/contacts/lin.png"> </a>
+        </div>
+    </footer>
+</div>
+</div>
+<script>
+    // Initialize and add the map
+    function initMap() {
+        // The location of Uluru
+        var uluru = {lat: -22.22, lng: 31.036};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 21, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?AIzaSyAVlHVk_jsYx8jH1Gcllp-OyobU31OKDeM&callback=initMap">
+</script>
+</body>
+</html>

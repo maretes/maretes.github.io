@@ -1,0 +1,116 @@
+.work_title {
+  margin: 100px 0; }
+  @media screen and (max-width: 922px) {
+    .work_title {
+      margin: 50px 0; } }
+  @media screen and (max-width: 768px) {
+    .work_title {
+      margin: 25px 0; } }
+  .work_title h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 576px) {
+      .work_title h2 {
+        font-size: 40px; } }
+  .work_title p {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400; }
+    @media screen and (max-width: 576px) {
+      .work_title p {
+        font-size: 10px; } }
+
+.hr_line {
+  width: 100%;
+  height: 1px;
+  background-color: #94b963; }
+
+.st-bt {
+  margin: 20px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-flow: row; }
+
+.work_list {
+  margin: 20px 0; }
+  @media screen and (max-width: 425px) {
+    .work_list {
+      margin: 5px 10px; } }
+
+.work_text-content h3 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.work_text-content a {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700; }
+
+.work_text-content-active {
+  padding: 0 10px;
+  background-color: #f5c149;
+  border-radius: 5px; }
+
+.work_list-st {
+  width: 260px;
+  height: 250px;
+  background-color: #eeeeee;
+  margin: 15px;
+  border-radius: 5px; }
+
+.work_list-st-text {
+  margin: 10px 0;
+  color: #727272;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.works__grid-item-text {
+  text-align: center;
+  margin: 30% 0; }
+
+.lisrum {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto; }
+  .lisrum img {
+    max-width: 100%; }
+  .lisrum .lisrum-layer_bottom {
+    display: block; }
+
+.lisrum .lisrum-layer_top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 15px;
+  transition: all 0.8s ease-in-out 0s; }
+
+.lisrum:hover .lisrum-layer_top:hover {
+  opacity: 1;
+  border-radius: 5px; }
+
+.works__grid-item_hover-link {
+  background: url("../../img/work/1.png") center no-repeat;
+  padding: 15px 25px; }
+  .works__grid-item_hover-link:hover {
+    opacity: .6; }

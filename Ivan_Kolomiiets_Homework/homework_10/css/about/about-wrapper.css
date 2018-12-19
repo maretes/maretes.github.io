@@ -1,0 +1,15 @@
+.about-conteiner {
+  padding: 0 0 10%; }
+
+.about-wrapper {
+  background: #665464 url("../../img/about/about_bg.png") center center no-repeat;
+  background-size: cover;
+  height: auto;
+  overflow: hidden; }
+
+.st-color-link-about:hover {
+  background: #91778e !important; }
+  @media screen and (max-width: 922px) {
+    .st-color-link-about:hover {
+      background: none !important;
+      color: #91778e !important; } }
