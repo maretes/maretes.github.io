@@ -1,0 +1,15 @@
+.work-conteiner {
+  padding: 0 0 10%; }
+
+.work-wrapper {
+  background: #81a256 url("../img/work/about_bg.png") center center no-repeat;
+  background-size: cover;
+  height: auto;
+  overflow: hidden; }
+
+.st-color-link-work:hover {
+  background: #a1ca6c !important; }
+  @media screen and (max-width: 922px) {
+    .st-color-link-work:hover {
+      background: none !important;
+      color: #a1ca6c !important; } }

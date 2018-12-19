@@ -1,0 +1,15 @@
+.services-conteiner {
+  padding: 0 0 10%; }
+
+.services-wrapper {
+  background: #b24a50 url("../img/services/bg_service.png") center center no-repeat;
+  background-size: cover;
+  height: auto;
+  overflow: hidden; }
+
+.st-color-link-services:hover {
+  background: #df5c64 !important; }
+  @media screen and (max-width: 922px) {
+    .st-color-link-services:hover {
+      background: none !important;
+      color: #df5c64 !important; } }
