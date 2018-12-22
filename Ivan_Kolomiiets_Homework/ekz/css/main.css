@@ -1,0 +1,524 @@
+@font-face {
+  font-family: 'fontd31d488d2171c1668c15962fc6cf1ef7';
+  src: url("https://nomail.com.ua/files/eot/d31d488d2171c1668c15962fc6cf1ef7.eot?#iefix") format("embedded-opentype"), url("https://nomail.com.ua/files/woff/d31d488d2171c1668c15962fc6cf1ef7.woff") format("woff"), url("https://nomail.com.ua/files/woff2/d31d488d2171c1668c15962fc6cf1ef7.woff2") format("woff2"); }
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.top-section {
+  width: 100%;
+  background: url("../img/bg_home.png") center no-repeat;
+  background-size: cover; }
+
+.link {
+  font: 400 14px/1 'Montserrat';
+  text-decoration: none;
+  cursor: pointer;
+  color: #e8e8e8;
+  text-transform: uppercase; }
+  .link:hover {
+    transition: .3s;
+    opacity: .7; }
+
+.header {
+  width: 100%;
+  height: 90px; }
+  .header__container {
+    display: flex;
+    padding: 0 5px 0;
+    height: 100%;
+    justify-content: center;
+    align-items: center; }
+  .header__logo {
+    width: 80px;
+    height: 30px;
+    z-index: 3;
+    margin: 0 auto; }
+    .header__logo a {
+      display: block; }
+
+@media (min-width: 600px) {
+  .header__logo {
+    width: 80px;
+    height: 30px;
+    top: 41px;
+    left: 19px; } }
+
+@media (min-width: 990px) {
+  .header__menu {
+    display: flex;
+    width: 100%;
+    justify-content: center; } }
+
+@media (min-width: 1200px) {
+  .header__container {
+    padding: 0; }
+  .header__logo {
+    position: relative;
+    width: 80px;
+    height: 30px;
+    top: 0;
+    left: 0; }
+    .header__logo:hover {
+      transition: .3s;
+      opacity: .7; } }
+
+@media (min-width: 300px) and (max-width: 992px) {
+  .fafa {
+    display: none; } }
+
+@media (min-width: 992px) and (max-width: 2500px) {
+  .header__logo-s {
+    display: none; }
+    .header__logo-s img:hover {
+      transition: .3s;
+      opacity: .7; } }
+
+.menu-list ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0; }
+
+.menu-list__item {
+  margin-right: 25px; }
+  .menu-list__item:last-child {
+    margin-right: 0; }
+
+@media only screen and (max-width: 992px) {
+  .menu-list {
+    position: fixed;
+    padding: 100px 0 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 72%;
+    height: 120%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    z-index: 1;
+    transform: translateX(100%);
+    will-change: auto; }
+    .menu-list.open {
+      opacity: 1;
+      visibility: visible;
+      height: 120%;
+      background: #fff;
+      box-shadow: 0 0 80px 20px rgba(0, 0, 0, 0.5);
+      transform: translateX(0); }
+      .menu-list.open li {
+        animation: fadeInRight .5s ease forwards;
+        animation-delay: .35s; }
+        .menu-list.open li:nth-of-type(2) {
+          animation-delay: .4s; }
+        .menu-list.open li:nth-of-type(3) {
+          animation-delay: .5s; }
+        .menu-list.open li:nth-of-type(4) {
+          animation-delay: .6s; }
+        .menu-list.open li:nth-of-type(5) {
+          animation-delay: .7s; }
+        .menu-list.open li:nth-of-type(6) {
+          animation-delay: .8s; }
+        .menu-list.open li:nth-of-type(7) {
+          animation-delay: .9s; }
+    .menu-list__links {
+      display: flex;
+      padding-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+      text-align: center;
+      flex-direction: column; }
+    .menu-list__item {
+      display: block;
+      opacity: 0;
+      padding-right: 0;
+      text-align: left; }
+    .menu-list__link {
+      display: block;
+      width: 100%;
+      padding: 0 0 0 50px;
+      height: 85px;
+      border-bottom: 0;
+      transition: .4s;
+      background: none;
+      color: #58595b;
+      font: 500 30px/85px 'Montserrat'; }
+    .menu-list:hover a {
+      border-bottom: 0;
+      -webkit-tap-highlight-color: rgba(78, 136, 251, 0.6);
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+      touch-action: manipulation; }
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      left: 20%; }
+    100% {
+      opacity: 1;
+      left: 0; } } }
+
+@media only screen and (max-width: 600px) {
+  .menu-list__link {
+    height: 50px;
+    font: 500 20px/50px 'Montserrat'; } }
+
+.button {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 60px;
+  color: #e8e8e8;
+  font: 700 20px/60px 'Montserrat';
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #f2f2f2;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.33px; }
+  .button:hover {
+    transition: .3s;
+    box-shadow: inset 0 0 8px 1px rgba(255, 255, 255, 0.75); }
+
+@media (min-width: 990px) {
+  .button {
+    font: 700 14px/36px 'Montserrat';
+    width: 126px;
+    height: 40px;
+    border: 1px solid #f2f2f2; } }
+
+@media only screen and (max-width: 992px) {
+  .hamburger {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+    z-index: 10;
+    transition: opacity .25s ease; }
+    .hamburger__item {
+      position: absolute;
+      top: 18px;
+      left: 15px;
+      border: 0;
+      height: 5px;
+      width: 50px;
+      background: #f2f2f2;
+      cursor: pointer; }
+      .hamburger__item:nth-of-type(2) {
+        top: 33px; }
+      .hamburger__item:nth-of-type(3) {
+        top: 48px; }
+    .hamburger.active {
+      opacity: 1;
+      z-index: 100; }
+      .hamburger.active .hamburger__item {
+        background: #58595b;
+        border: 0;
+        height: 5px;
+        width: 55px;
+        border-radius: 0; }
+        .hamburger.active .hamburger__item--top {
+          transform: translateY(19px) translateX(-13px) rotate(135deg);
+          background: #58595b;
+          transition: .35s ease; }
+        .hamburger.active .hamburger__item--middle {
+          opacity: 0;
+          background: #58595b;
+          height: 10px;
+          width: 10px;
+          border-radius: 50%; }
+        .hamburger.active .hamburger__item--bottom {
+          transform: translateY(-11px) translateX(-13px) rotate(-135deg);
+          background: #58595b;
+          transition: .35s ease; } }
+
+@media only screen and (max-width: 600px) {
+  .hamburger {
+    position: absolute;
+    top: 11px;
+    right: 14px;
+    width: 60px;
+    height: 60px; }
+    .hamburger__item {
+      position: absolute;
+      top: 18px;
+      left: 15px;
+      height: 3px;
+      width: 45px; }
+    .hamburger.active .hamburger__item {
+      height: 3px;
+      width: 45px; } }
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+.home__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  text-align: center;
+  margin: 150px 0; }
+
+.home__text h2 {
+  color: #ffffff;
+  font-family: 'fontd31d488d2171c1668c15962fc6cf1ef7';
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5.4px; }
+  @media (max-width: 576px) {
+    .home__text h2 {
+      font-size: 26px; } }
+
+.home__text p {
+  color: #ffffff;
+  font-family: 'fontd31d488d2171c1668c15962fc6cf1ef7';
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.4px;
+  margin: 60px 0; }
+
+.home__bt a {
+  padding: 15px 20px;
+  border-radius: 3px;
+  background-color: #16a085;
+  text-decoration: none; }
+  .home__bt a:hover {
+    box-shadow: 0 5px 50px #16a085a6; }
+  .home__bt a span {
+    color: #ffffff;
+    font-family: "Gotham Rounded";
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px; }
+
+.home__social {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+  .home__social a {
+    margin: 0 30px;
+    overflow: hidden; }
+    .home__social a:hover {
+      opacity: .7; }
+
+.second {
+  background: #f5f6f7 url("../img/bg_second.png") right no-repeat;
+  background-size: cover; }
+  .second__block {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 450px;
+    width: 100%;
+    margin: 100px 0; }
+    .second__block_text h3 {
+      color: #16a085;
+      font-family: "fontd31d488d2171c1668c15962fc6cf1ef7";
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2.7px; }
+    .second__block_text p {
+      color: #373737;
+      font-family: "fontd31d488d2171c1668c15962fc6cf1ef7";
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24px;
+      margin: 40px 0;
+      float: left; }
+
+.third {
+  background: #fff url("../img/bg_third.png") left no-repeat;
+  background-size: cover;
+  padding: 100px 0; }
+  .third__block {
+    float: right;
+    max-width: 450px;
+    width: 100%;
+    margin: 50px 0; }
+    .third__block img {
+      margin-top: 50px; }
+  .third__text {
+    margin: 50px 0; }
+    .third__text h3 {
+      color: #16a085;
+      font-family: "Gotham Rounded";
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+      text-transform: uppercase; }
+    .third__text p {
+      color: #373737;
+      font-family: "Gotham Rounded - Book";
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 22px; }
+
+.fourth {
+  background: #f5f6f7;
+  padding: 50px 0; }
+  .fourth__block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center; }
+    @media (max-width: 999px) {
+      .fourth__block {
+        justify-content: center; } }
+  .fourth__text {
+    max-width: 250px;
+    margin: 55px 0;
+    text-align: center; }
+    .fourth__text h3 {
+      color: #373737;
+      font-family: "Gotham Rounded";
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 20px;
+      text-transform: uppercase; }
+    .fourth__text p {
+      color: #373737;
+      font-family: "Gotham Rounded";
+      font-size: 13px;
+      font-weight: 500; }
+
+.fifthy {
+  background: #58595b url("../img/Livello_3.png") center no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+  text-align: center; }
+  .fifthy__block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+  .fifthy__text h3 {
+    color: #ffffff;
+    font-family: "Gotham Rounded";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .fifthy form {
+    display: flex;
+    justify-content: center; }
+    .fifthy form input {
+      width: 280px;
+      height: 60px;
+      padding: 20px;
+      border-radius: 3px 0 0 3px;
+      background-color: #ffffff;
+      border: none;
+      color: #373737;
+      font-family: "Gotham Rounded";
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: uppercase; }
+    .fifthy form button {
+      border: none;
+      width: 63px;
+      height: 60px;
+      border-radius: 0 3px 3px 0;
+      background-color: #16a085; }
+      .fifthy form button:hover {
+        cursor: pointer;
+        background: #16a095; }
+
+.seventh {
+  background: #f5f6f7;
+  padding: 100px 0;
+  text-align: center; }
+  .seventh__text {
+    width: 70%;
+    margin: 0 auto; }
+  .seventh__bt {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .seventh__bt a {
+      color: #ffffff;
+      font-family: "Gotham Rounded";
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none; }
+      .seventh__bt a:hover {
+        opacity: .5; }
+
+.apple {
+  display: block;
+  margin: 5px;
+  width: 300px;
+  background: url("../img/Rettangolo 91.png") no-repeat right;
+  padding: 19px 100px; }
+
+.play {
+  display: block;
+  margin: 5px;
+  width: 300px;
+  background: url("../img/Rettangolo 9 copia.png") no-repeat right;
+  padding: 19px 100px; }
+
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center; }
+  @media (max-width: 556px) {
+    .footer__block {
+      text-align: center;
+      justify-content: center; } }
+
+.footer__link {
+  color: #373737;
+  font-family: "Gotham Rounded";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.1px; }
+  .footer__link a {
+    text-decoration: none;
+    color: #373737; }
+    .footer__link a:hover {
+      color: #d4d4d4; }
